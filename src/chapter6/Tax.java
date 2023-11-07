@@ -13,7 +13,7 @@ public class Tax {
         this.koujo = koujo;
     }
 
-    public int zaigaku() {
+    public int zeigaku() {
         return (int) ((shotoku - koujo) * 0.1);
     }
 }
